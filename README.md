@@ -65,9 +65,7 @@ Alguns dos nossos trabalhos:
 
 ## 🧠 Tecnologias utilizadas
 
-- HTML5  
-- CSS3  
-- JavaScript *(em breve)*  
+- HTML
 - VS Code  
 
 ---
@@ -76,4 +74,4 @@ Alguns dos nossos trabalhos:
 
 1. Baixe ou clone este repositório:
    ```bash
-   git clone https://github.com/SEU-USUARIO/SEU-REPOSITORIO.git
+   git clone https://github.com/gabriel-freitas96/Quartech.git
