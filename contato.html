@@ -4,98 +4,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
-    <style>
-        body {
-            font-family: "Trebuchet MS", sans-serif;
-        }
-    </style>
 </head>
 
 <body bgcolor="#000b47" text="white">
 
+    <!-- LOGO -->
     <center>
-        <img src="imagens/quartech1.png" height="100p">
+        <img src="imagens/quartech1.png" height="100">
     </center>
 
-    <table border="0" width="50%" bgcolor="#a13afc" align="center" cellspacing="6" cellpadding="5"
-        style="font-size: 18px; color: white;">
+    <!-- MENU -->
+    <table border="0" width="50%" bgcolor="#a13afc" align="center" cellspacing="6" cellpadding="5">
         <tr align="center">
-            <td><a href="homequartech.html" style="padding:10px 20px; background-color:#a13afc; color:white; text-decoration:none; border-radius:1px;">Home</a></td>
-            <td><a href="sobrenos.html" style="padding:10px 20px; background-color:#a13afc; color:white; text-decoration:none; border-radius:1px;">Sobre Nós</a></td>
-            <td><a href="equipe.html" style="padding:10px 20px; background-color:#a13afc; color:white; text-decoration:none; border-radius:1px;">Equipe</a></td>
-            <td><a href="contato.html" style="padding:10px 20px; background-color:#a13afc; color:white; text-decoration:none; border-radius:1px;">Contato</a></td>
-            <td><a href="portfolio.html" style="padding:10px 20px; background-color:#a13afc; color:white; text-decoration:none; border-radius:1px;">Portfólio</a></td>
+            <td><a href="homequartech.html"><font face="Trebuchet MS" color="white" size="4">Home</font></a></td>
+            <td><a href="sobrenos.html"><font face="Trebuchet MS" color="white" size="4">Sobre Nós</font></a></td>
+            <td><a href="equipe.html"><font face="Trebuchet MS" color="white" size="4">Equipe</font></a></td>
+            <td><a href="contato.html"><font face="Trebuchet MS" color="white" size="4">Contato</font></a></td>
+            <td><a href="portfolio.html"><font face="Trebuchet MS" color="white" size="4">Portfólio</font></a></td>
         </tr>
     </table>
 
-    <button onclick="window.history.back()"
-        style="background-color:#a13afc; color:white; border:none;
-        padding:10px 25px; border-radius:10px; font-size:16px;
-        cursor:pointer; font-family:'Trebuchet MS';">
-        ⬅ Voltar
-    </button>
+    <!-- BOTÃO VOLTAR -->
+    <form>
+        <input type="button" value="⬅ Voltar" onclick="window.history.back()"
+               style="background-color:#a13afc; color:white; border:none; cursor:pointer; font-family:'Trebuchet MS'; padding:10px 25px; font-size:16px;">
+    </form>
 
+    <!-- TABELA PRINCIPAL -->
     <table border="0" width="95%" cellspacing="20" cellpadding="0">
         <tr valign="top">
+
+            <!-- FORMULÁRIO -->
             <td width="55%">
-                <table border="0" width="95%" bgcolor="#0d2b66" cellpadding="15" cellspacing="0" style="border-radius:15px;">
+                <table border="0" width="95%" bgcolor="#0d2b66" cellpadding="15" cellspacing="0">
                     <tr>
                         <td>
-                            <h2>Formulário de Contato:</h2>
+                            <font face="Trebuchet MS" color="white">
+                                <h2>Formulário de Contato:</h2>
+                            </font>
 
                             <form action="#" method="post">
+                                <b>Nome:</b><br>
+                                <input type="text" name="nome" size="40" required style="font-family:'Trebuchet MS';"><br><br>
 
-                                <label for="nome"><b>Nome:</b></label><br>
-                                <input type="text" id="nome" name="nome" required
-                                    style="width:95%; padding:10px; margin:8px 0; border:none; border-radius:8px;"><br>
+                                <b>E-mail:</b><br>
+                                <input type="email" name="email" size="40" required style="font-family:'Trebuchet MS';"><br><br>
 
-                                <label for="email"><b>E-mail:</b></label><br>
-                                <input type="email" id="email" name="email" required
-                                    style="width:95%; padding:10px; margin:8px 0; border:none; border-radius:8px;"><br>
+                                <b>Assunto:</b><br>
+                                <input type="text" name="assunto" size="40" style="font-family:'Trebuchet MS';"><br><br>
 
-                                <label for="assunto"><b>Assunto:</b></label><br>
-                                <input type="text" id="assunto" name="assunto"
-                                    style="width:95%; padding:10px; margin:8px 0; border:none; border-radius:8px;"><br>
+                                <b>Mensagem:</b><br>
+                                <textarea name="mensagem" rows="5" cols="40" required style="font-family:'Trebuchet MS';"></textarea><br><br>
 
-                                <label for="mensagem"><b>Mensagem:</b></label><br>
-                                <textarea id="mensagem" name="mensagem" rows="5" required
-                                    style="width:95%; padding:10px; margin:8px 0; border:none; border-radius:8px;"></textarea><br>
-
-                                <button type="submit"
-                                    style="background:linear-gradient(90deg, #a13afc, #5ec0ff); color:white;
-                                    border:none; padding:12px 28px; border-radius:12px; font-size:16px;
-                                    cursor:pointer; font-family:'Trebuchet MS';">
-                                    Enviar mensagem
-                                </button>
-
+                                <!-- BOTÃO ROXO TAMANHO UNIFICADO -->
+                                <input type="submit" value="Enviar mensagem"
+                                       style="background-color:#a13afc; color:white; border:none; cursor:pointer; font-family:'Trebuchet MS'; padding:10px 25px; font-size:16px;">
                             </form>
                         </td>
                     </tr>
                 </table>
             </td>
 
+            <!-- IMAGEM E CONTATOS -->
             <td width="45%" align="center">
                 <img src="imagens/img7.png" width="90%" height="90%"><br><br>
 
-             <table border="0" width="100%" bgcolor="#000b47" cellspacing="5" cellpadding="5" align="center">
-    <tr align="center">
-        <td>
-            <img src="imagens/icon13.png" width="40" align="absmiddle">
-            <h4 style="display:inline;">contato@quartech.com.br</h4>
-        </td>
+                <table border="0" width="100%" bgcolor="#000b47" cellspacing="5" cellpadding="5" align="center">
+                    <tr align="center">
+                        <td>
+                            <img src="imagens/icon13.png" width="40" align="absmiddle">
+                            <font face="Trebuchet MS" color="white">contato@quartech.com.br</font>
+                        </td>
 
-        <td>
-            <img src="imagens/icon8.png" width="40" align="absmiddle">
-            <h4 style="display:inline;">github.com/quartech</h4>
-        </td>
+                        <td>
+                            <img src="imagens/icon8.png" width="40" align="absmiddle">
+                            <font face="Trebuchet MS" color="white">github.com/quartech</font>
+                        </td>
 
-        <td>
-            <img src="imagens/icon7.png" width="40" align="absmiddle">
-            <h4 style="display:inline;">linkedin.com/company/quartech</h4>
-        </td>
-    </tr>
-</table>
-                
+                        <td>
+                            <img src="imagens/icon7.png" width="40" align="absmiddle">
+                            <font face="Trebuchet MS" color="white">linkedin.com/company/quartech</font>
+                        </td>
+                    </tr>
+                </table>
+
             </td>
         </tr>
     </table>
